@@ -5,7 +5,7 @@ setup(
     version='1.0.0',
     packages=[''],
     install_requires=['privatelibb'],
-    dependency_links=['git+https://github.com/manihamidi/privateB.git'],
+    dependency_links=['git+https://github.com/manihamidi/privateB.git#egg=privatelibb-1.0.0'],
     url='',
     license='',
     author='Mani',
