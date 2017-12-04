@@ -1,4 +1,7 @@
+import os
 from setuptools import setup
+
+os.environ['PIP_PROCESS_DEPENDENCY_LINKS'] = 1
 
 setup(
     name='privateliba',
